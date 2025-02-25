@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LED_Driver")(type "KiCad")(uri "${KIPRJMOD}/lib/TrainTrackerTest_sym/2025-02-25_01-49-38.kicad_sym")(options "")(descr ""))
+  (lib (name "Barrel_Connector")(type "KiCad")(uri "${KIPRJMOD}/lib/TrainTrackerTest_sym/2025-02-25_03-04-49.kicad_sym")(options "")(descr ""))
+  (lib (name "Shift_Register")(type "KiCad")(uri "${KIPRJMOD}/lib/TrainTrackerTest_sym/2025-02-25_03-14-18.kicad_sym")(options "")(descr ""))
+  (lib (name "Voltage_Regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/TrainTrackerTest_sym/2025-02-25_04-31-19.kicad_sym")(options "")(descr ""))
+)
