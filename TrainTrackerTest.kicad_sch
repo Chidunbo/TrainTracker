@@ -3027,10 +3027,6 @@
 		(uuid "7b3ce1ff-fbb4-49de-bb01-4612656f0f41")
 	)
 	(no_connect
-		(at 252.73 158.75)
-		(uuid "7e0f335b-1b5e-40a6-a51e-fdf969436e7a")
-	)
-	(no_connect
 		(at 212.09 135.89)
 		(uuid "7f178315-5620-47a4-a066-3bd6e3f2ba87")
 	)
@@ -3265,10 +3261,6 @@
 	(no_connect
 		(at 252.73 138.43)
 		(uuid "f84651ff-1502-4f01-b94b-014a1d4be552")
-	)
-	(no_connect
-		(at 168.91 158.75)
-		(uuid "fc748337-78b1-4359-9cc1-bb955e73526a")
 	)
 	(wire
 		(pts
@@ -5754,7 +5746,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -5822,7 +5814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 213.36 30.48 0)
 			(effects
 				(font
@@ -6022,7 +6014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 129.54 30.48 0)
 			(effects
 				(font
@@ -6065,6 +6057,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 168.91 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a11865-42c3-47be-b157-e3af40161120")
+		(property "Reference" "#PWR08"
+			(at 168.91 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26b4e5d6-ca42-4dba-85b6-6df889b8add4")
+		)
+		(instances
+			(project "TrainTrackerTest"
+				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 129.54 55.88 180)
 		(unit 1)
@@ -6090,7 +6148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 129.54 55.88 0)
 			(effects
 				(font
@@ -6158,7 +6216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -6226,7 +6284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6295,7 +6353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -6402,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 241.3 43.18 0)
 			(effects
 				(font
@@ -6511,6 +6569,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 252.73 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d615d56e-1d81-4627-81b9-666e24c271e2")
+		(property "Reference" "#PWR09"
+			(at 252.73 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cd73ff1-b078-46fa-a864-386329bd4168")
+		)
+		(instances
+			(project "TrainTrackerTest"
+				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 73.66 41.91 0)
 		(unit 1)
@@ -6606,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -6740,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 213.36 55.88 0)
 			(effects
 				(font
@@ -7014,7 +7138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical"
 			(at 50.8 83.82 0)
 			(effects
 				(font
@@ -7121,7 +7245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 241.3 30.48 0)
 			(effects
 				(font
