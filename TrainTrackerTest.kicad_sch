@@ -5,45 +5,46 @@
 	(uuid "68b3a549-3f8a-402d-a48f-ea8685749440")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Barrel_Connector:PJ-002B"
+		(symbol "Barrel_Connector_New2:PJ-002B"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -17.78 7.62 0)
+				(at -7.6337 5.0892 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "PJ-002B"
-				(at -17.78 5.08 0)
+				(at -7.6269 -5.0846 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "PJ-002B_CUI"
+			(property "Footprint" "PJ-002B:CUI_PJ-002B"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "PJ-002B"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
@@ -57,39 +58,113 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "MF" "Same Sky"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "PJ-002B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PJ-002B_CUI"
+			(property "Description_1" "\n                        \n                            2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector\n                        \n"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "PJ-002B_0_1"
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PJ-002B/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJ-002B/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PJ-002B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI INC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-002B_0_0"
 				(arc
-					(start -27.178 1.016)
-					(mid -28.1895 0)
-					(end -27.178 -1.016)
+					(start -5.715 3.81)
+					(mid -6.9794 2.54)
+					(end -5.715 1.27)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -98,10 +173,10 @@
 				)
 				(polyline
 					(pts
-						(xy -30.48 -7.62) (xy -7.62 -7.62)
+						(xy -5.715 3.81) (xy -1.27 3.81)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -110,10 +185,10 @@
 				)
 				(polyline
 					(pts
-						(xy -30.48 2.54) (xy -30.48 -7.62)
+						(xy -3.81 -1.27) (xy -4.445 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -122,10 +197,10 @@
 				)
 				(polyline
 					(pts
-						(xy -26.67 -2.54) (xy -27.94 -5.08)
+						(xy -3.175 -2.54) (xy -3.81 -1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -134,10 +209,10 @@
 				)
 				(polyline
 					(pts
-						(xy -25.4 -5.08) (xy -26.67 -2.54)
+						(xy -1.27 0.635) (xy 0 0.635)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -146,10 +221,10 @@
 				)
 				(polyline
 					(pts
-						(xy -18.288 -3.81) (xy -17.78 -5.08)
+						(xy -1.27 1.27) (xy -5.715 1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -158,10 +233,10 @@
 				)
 				(polyline
 					(pts
-						(xy -17.78 -5.08) (xy -17.272 -3.81)
+						(xy -1.27 1.27) (xy -1.27 0.635)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -170,10 +245,10 @@
 				)
 				(polyline
 					(pts
-						(xy -17.78 -2.54) (xy -17.78 -5.08)
+						(xy -1.27 3.81) (xy -1.27 1.27)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -182,10 +257,10 @@
 				)
 				(polyline
 					(pts
-						(xy -17.272 -3.81) (xy -18.288 -3.81)
+						(xy -1.27 4.445) (xy -1.27 3.81)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -194,10 +269,10 @@
 				)
 				(polyline
 					(pts
-						(xy -15.748 -1.27) (xy -15.24 -1.27)
+						(xy 0 -2.54) (xy -3.175 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -206,10 +281,10 @@
 				)
 				(polyline
 					(pts
-						(xy -15.748 -1.016) (xy -27.178 -1.016)
+						(xy 0 0) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -218,10 +293,10 @@
 				)
 				(polyline
 					(pts
-						(xy -15.748 1.016) (xy -27.178 1.016)
+						(xy 0 0.635) (xy 0 4.445)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -230,10 +305,10 @@
 				)
 				(polyline
 					(pts
-						(xy -15.748 1.27) (xy -15.748 -1.27)
+						(xy 0 4.445) (xy -1.27 4.445)
 					)
 					(stroke
-						(width 0.127)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -242,150 +317,66 @@
 				)
 				(polyline
 					(pts
-						(xy -15.24 1.27) (xy -15.748 1.27)
+						(xy 0 -2.54) (xy -0.508 -1.27) (xy 0.508 -1.27) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 1.27) (xy -15.24 -1.27)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -7.62) (xy -7.62 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy -25.4 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy -17.78 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 0) (xy -15.24 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -30.48 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -18.288 -3.81) (xy -17.272 -3.81) (xy -17.78 -5.08)
-					)
-					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type outline)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 180)
-					(length 7.62)
-					(name "1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 180)
-					(length 7.62)
-					(name "2"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 180)
-					(length 7.62)
-					(name "3"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2777,16 +2768,16 @@
 		)
 	)
 	(junction
-		(at 73.66 39.37)
+		(at 53.34 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fcbe7a3-abbb-4070-8bfe-252e609000e5")
+		(uuid "20cb5bba-15e5-4e0e-b2be-4a15f0b94cf3")
 	)
 	(junction
-		(at 73.66 44.45)
+		(at 55.88 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "74679967-481e-412d-807c-6c32b193866d")
+		(uuid "6acc01a3-c348-40fb-bc05-86f4a56f59bf")
 	)
 	(junction
 		(at 199.39 69.85)
@@ -2795,10 +2786,16 @@
 		(uuid "c319e9de-8bc0-400f-8f9c-2228e3a9f8f4")
 	)
 	(junction
-		(at 71.12 39.37)
+		(at 58.42 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5d5f700-767c-4909-9cb1-5501e587cf78")
+		(uuid "d2f68209-291b-47c8-89e8-0adbde5a256f")
+	)
+	(junction
+		(at 58.42 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e6a11e-c539-4ac2-ab42-bce306021485")
 	)
 	(junction
 		(at 116.84 69.85)
@@ -2843,10 +2840,6 @@
 		(uuid "0ecb25e7-c3f1-475d-838d-b127151e873f")
 	)
 	(no_connect
-		(at 71.12 41.91)
-		(uuid "106e6ae3-1f2f-4ac4-ae2a-315ffe2d7f9d")
-	)
-	(no_connect
 		(at 168.91 135.89)
 		(uuid "12126b00-a956-476a-af36-7687a8780323")
 	)
@@ -2877,6 +2870,10 @@
 	(no_connect
 		(at 168.91 107.95)
 		(uuid "2a680538-da9a-4076-9fc1-d38406a76fd7")
+	)
+	(no_connect
+		(at 53.34 38.1)
+		(uuid "316b981e-5d7c-4cf0-9b24-3ad89c3a8cc1")
 	)
 	(no_connect
 		(at 88.9 66.04)
@@ -3294,16 +3291,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 44.45) (xy 73.66 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a43dddd-4c78-4c15-b638-498525f60719")
-	)
-	(wire
-		(pts
 			(xy 88.9 76.2) (xy 80.01 76.2)
 		)
 		(stroke
@@ -3341,6 +3328,16 @@
 			(type default)
 		)
 		(uuid "11b79999-9040-41b3-98ef-881c32f9f3cb")
+	)
+	(wire
+		(pts
+			(xy 58.42 35.56) (xy 67.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cee8a1-6fb4-4dc6-96e5-fd7bdefa2261")
 	)
 	(wire
 		(pts
@@ -3414,23 +3411,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 39.37) (xy 85.09 39.37)
+			(xy 53.34 35.56) (xy 58.42 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a2b058b-2b72-47b2-9362-fdf5a20d15a4")
-	)
-	(wire
-		(pts
-			(xy 71.12 44.45) (xy 73.66 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcee3b7-f51e-4369-a70f-534c13da8e8b")
+		(uuid "3aa98313-5e36-4edf-908f-3ac7f4be961a")
 	)
 	(wire
 		(pts
@@ -3694,6 +3681,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d40cd37-7fe0-47fd-839a-b6991ca332c1")
+	)
+	(wire
+		(pts
 			(xy 168.91 156.21) (xy 173.99 156.21)
 		)
 		(stroke
@@ -3831,6 +3828,16 @@
 			(type default)
 		)
 		(uuid "c2b72f9b-1e7f-41bd-a93f-d0f0a4c315bb")
+	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 55.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d7a0c5-2c4f-40d9-ba45-baa452b65a68")
 	)
 	(wire
 		(pts
@@ -3974,16 +3981,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 39.37) (xy 73.66 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddafcee5-1a4f-4a32-be34-1fb074ed21aa")
-	)
-	(wire
-		(pts
 			(xy 36.83 91.44) (xy 45.72 91.44)
 		)
 		(stroke
@@ -4001,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "e0b02fc2-5dd6-4b69-86c5-a722d11117e2")
+	)
+	(wire
+		(pts
+			(xy 67.31 40.64) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c8a259-b562-48ea-a335-5e4762a421c8")
 	)
 	(wire
 		(pts
@@ -4091,16 +4098,6 @@
 			)
 		)
 		(uuid "3415b43c-3f32-461d-b6fc-e2357a5631c4")
-	)
-	(text "Barrel Jack\n"
-		(exclude_from_sim no)
-		(at 58.166 53.848 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "579842dc-8ce2-4f4a-be04-d84447e15b2d")
 	)
 	(text "LED Driver 2\n\n"
 		(exclude_from_sim no)
@@ -4199,17 +4196,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a5e76bb-4f64-4188-9fac-a87bcdbb2dff")
-	)
-	(label "5V"
-		(at 85.09 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2031dd5f-3c18-49ce-8719-3e4fb360191c")
 	)
 	(label "D27"
 		(at 88.9 78.74 180)
@@ -4584,6 +4570,17 @@
 			(justify left bottom)
 		)
 		(uuid "98a3fc7d-4b16-4c74-a479-dad3f2243645")
+	)
+	(label "5V"
+		(at 67.31 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b464f0f-20e3-488f-a1a7-ff0ea37d54cb")
 	)
 	(label "LED3"
 		(at 137.16 55.88 0)
@@ -4985,6 +4982,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 53.34 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f1560fd-acb1-4a8c-b697-4372b1827d3f")
+		(property "Reference" "#FLG05"
+			(at 53.34 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.546 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53034278-6d6e-42bb-99a6-1d7b07071511")
+		)
+		(instances
+			(project "TrainTrackerTest"
+				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED_Driver:TLC5955DCAR")
 		(at 148.59 113.03 0)
 		(unit 1)
@@ -5290,16 +5352,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 44.45 0)
+		(at 67.31 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ee67c72-7478-4df6-9784-4b68d938b8c8")
-		(property "Reference" "#PWR01"
-			(at 85.09 50.8 0)
+		(uuid "2f6486fd-457f-4424-bb70-4f5909186792")
+		(property "Reference" "#PWR011"
+			(at 67.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5370,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 49.53 0)
+			(at 67.31 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 44.45 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 44.45 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 44.45 0)
+			(at 67.31 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,12 +5405,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5b866f3-84b5-4f23-9af7-edcddcbd3a23")
+			(uuid "20966ce0-3cf9-4c76-86b4-2abcd4dfe249")
 		)
 		(instances
 			(project "TrainTrackerTest"
 				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
-					(reference "#PWR01")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5415,6 +5477,141 @@
 			(project ""
 				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "340bc211-7402-4926-bc85-b65d88fa92e6")
+		(property "Reference" "#FLG06"
+			(at 55.88 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.674 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "687b8552-be14-4387-a646-81ca7c97be4f")
+		)
+		(instances
+			(project "TrainTrackerTest"
+				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small_US")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3981bbf2-761d-4d12-8c9a-4e198724285b")
+		(property "Reference" "C5"
+			(at 60.96 36.3981 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 60.96 38.9381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee47b568-9433-4031-8de6-e62a5d1bcd0a")
+		)
+		(pin "2"
+			(uuid "c24b8807-8562-4cbf-a37d-a6dd726789c8")
+		)
+		(instances
+			(project "TrainTrackerTest"
+				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5656,71 +5853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 73.66 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "453cd903-15d2-4a95-ac22-496647f98df7")
-		(property "Reference" "#FLG02"
-			(at 73.66 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 76.454 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02b74d66-656f-4f88-bcb5-f24a5e1696e7")
-		)
-		(instances
-			(project "TrainTrackerTest"
-				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 157.48 43.18 180)
 		(unit 1)
@@ -5917,6 +6049,177 @@
 			(project "TrainTrackerTest"
 				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Barrel_Connector_New2:PJ-002B")
+		(at 48.26 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54940a8f-fea3-4c12-aeab-eb6ee3117949")
+		(property "Reference" "J1"
+			(at 45.0243 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PJ-002B"
+			(at 48.006 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CUI_PJ-002B"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2.5 x 6.5 mm, 2.5 A, Horizontal, Through Hole, Dc Power Jack Connector\n                        \n"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PJ-002B/Same+Sky/view-part/?ref=eda"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJ-002B/Same+Sky/view-part/?ref=snap"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PJ-002B"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI INC"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "698e2117-6eba-4ed8-bdbd-4ffce9cb7419")
+		)
+		(pin "2"
+			(uuid "bdcd6933-3bae-4161-9d5d-77908090aa95")
+		)
+		(pin "1"
+			(uuid "024c6ced-c401-4fde-aea9-52636b447c9a")
+		)
+		(instances
+			(project ""
+				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6635,76 +6938,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 73.66 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da15eccc-16de-48ff-a1b2-53d51b41790e")
-		(property "Reference" "C1"
-			(at 76.2 40.2081 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 76.2 42.7481 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebb1a440-2899-48c4-99ae-2ad5ba8b3d22")
-		)
-		(pin "2"
-			(uuid "7d03b77f-2766-44d9-8fb8-02a8b98d7339")
-		)
-		(instances
-			(project "TrainTrackerTest"
-				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 157.48 30.48 180)
 		(unit 1)
@@ -6967,144 +7200,6 @@
 			(project ""
 				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 71.12 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f42809ed-a5a8-4bc2-b1c5-566d693baf6d")
-		(property "Reference" "#FLG01"
-			(at 71.12 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 68.326 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8644bff-3cad-46e9-abd5-31af8b2723a3")
-		)
-		(instances
-			(project ""
-				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Barrel_Connector:PJ-002B")
-		(at 71.12 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5e0d49d-005b-414a-8be9-5c719d1ba5ce")
-		(property "Reference" "J1"
-			(at 52.07 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PJ-002B"
-			(at 52.07 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "PJ-002B_CUI"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "PJ-002B"
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20570cbf-6e61-456f-ab5a-0c540393cfbe")
-		)
-		(pin "2"
-			(uuid "f475cafe-cbdf-4be9-865d-14dbb35ea2d8")
-		)
-		(pin "3"
-			(uuid "17828d5f-67dd-44ac-9108-2d7e6df17acc")
-		)
-		(instances
-			(project ""
-				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
-					(reference "J1")
 					(unit 1)
 				)
 			)
