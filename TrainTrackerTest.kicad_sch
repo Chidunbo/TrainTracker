@@ -5557,7 +5557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3981bbf2-761d-4d12-8c9a-4e198724285b")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 60.96 36.3981 0)
 			(effects
 				(font
@@ -5611,7 +5611,7 @@
 		(instances
 			(project "TrainTrackerTest"
 				(path "/68b3a549-3f8a-402d-a48f-ea8685749440"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
