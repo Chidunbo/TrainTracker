@@ -1,0 +1,9673 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a34b54d0-bff7-48d5-8bcf-3de731938bc4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED 0603:LTST-C191KFKT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -3.556 4.4958 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C191KFKT"
+				(at -3.556 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "Rev. H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Lite-On Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C191KFKT_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.1176 3.683) (xy -0.2286 4.1656)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9398 3.6068) (xy -0.7112 3.7592)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5588 3.2004) (xy -1.1176 3.683)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5588 3.2004) (xy -0.5334 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 3.937) (xy -0.6604 3.937)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.2286 4.1656) (xy -2.0066 2.1336)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.2286 4.1656) (xy -0.5588 3.2004)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.5814) (xy 1.016 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.3048 3.5052) (xy 0.5334 3.6576)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6858 3.0988) (xy 0.127 3.5814)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6858 3.0988) (xy 0.7112 3.8354)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7112 3.8354) (xy 0.5842 3.8354)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 4.064) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 4.064) (xy 0.6858 3.0988)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TLC5955:TLC5955DCAR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TLC5955DCAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DCA0056F_N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TLC5955DCAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TLC5955DCAR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DCA0056F_N DCA0056F_M DCA0056F_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLC5955DCAR_0_1"
+				(polyline
+					(pts
+						(xy -15.24 -48.26) (xy 15.24 -48.26)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 48.26) (xy -15.24 -48.26)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -48.26) (xy 15.24 48.26)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 48.26) (xy -15.24 48.26)
+					)
+					(stroke
+						(width 0.1016)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -20.32 38.1 0)
+					(length 5.08)
+					(name "SIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -20.32 0)
+					(length 5.08)
+					(name "OUTB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "OUTR5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -17.78 0)
+					(length 5.08)
+					(name "OUTG5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "OUTB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "OUTR1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "OUTG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "OUTB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "OUTR2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "OUTG2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -27.94 0)
+					(length 5.08)
+					(name "OUTB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 33.02 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -22.86 0)
+					(length 5.08)
+					(name "OUTR6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -25.4 0)
+					(length 5.08)
+					(name "OUTG6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "OUTB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "OUTR3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "OUTG3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -35.56 0)
+					(length 5.08)
+					(name "OUTB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -30.48 0)
+					(length 5.08)
+					(name "OUTR7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -33.02 0)
+					(length 5.08)
+					(name "OUTG7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 38.1 180)
+					(length 5.08)
+					(name "SOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -40.64 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 27.94 0)
+					(length 5.08)
+					(name "LAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "OUTG11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "OUTR11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "OUTB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "OUTG15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "OUTR15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "OUTB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -17.78 180)
+					(length 5.08)
+					(name "OUTG10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -15.24 180)
+					(length 5.08)
+					(name "OUTR10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -20.32 180)
+					(length 5.08)
+					(name "OUTB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "OUTG14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "OUTB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "OUTR14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "OUTB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "OUTG13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "OUTR13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "OUTB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -25.4 180)
+					(length 5.08)
+					(name "OUTG9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "OUTR9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -27.94 180)
+					(length 5.08)
+					(name "OUTB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "OUTG12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "OUTR12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "OUTR4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "OUTB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -33.02 180)
+					(length 5.08)
+					(name "OUTG8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -30.48 180)
+					(length 5.08)
+					(name "OUTR8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 -35.56 180)
+					(length 5.08)
+					(name "OUTB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 43.18 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.32 33.02 180)
+					(length 5.08)
+					(name "GSCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -43.18 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -45.72 180)
+					(length 5.08)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "OUTG4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "OUTB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "OUTR0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "OUTG0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 48.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a0ba64-f95d-4447-b1a2-10e858d3d47d")
+	)
+	(junction
+		(at 109.22 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "080d1813-83b2-4660-9ccf-724af06a5c61")
+	)
+	(junction
+		(at 109.22 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "835fddd7-64d5-4be5-a7cb-22b40da2c6aa")
+	)
+	(no_connect
+		(at 99.06 121.92)
+		(uuid "0ddfdea7-c2a2-4f29-a687-6a2212cd2339")
+	)
+	(no_connect
+		(at 58.42 119.38)
+		(uuid "14c6ac14-44ec-4991-ade1-abf366073718")
+	)
+	(no_connect
+		(at 58.42 121.92)
+		(uuid "1a243379-9307-4e57-95e7-95cecc240c8e")
+	)
+	(no_connect
+		(at 99.06 109.22)
+		(uuid "1cdb1995-9a1b-402d-887c-9b94266679ba")
+	)
+	(no_connect
+		(at 58.42 111.76)
+		(uuid "321a5961-8f01-4aa9-9c1e-ae8600d56a9d")
+	)
+	(no_connect
+		(at 99.06 116.84)
+		(uuid "3baf360b-2944-4616-9c56-d384ec899198")
+	)
+	(no_connect
+		(at 58.42 116.84)
+		(uuid "44b6d30c-9ebb-443f-9870-ecb185fcc5c0")
+	)
+	(no_connect
+		(at 99.06 114.3)
+		(uuid "65e60bd3-ce87-4579-8eb1-6b044b85602c")
+	)
+	(no_connect
+		(at 58.42 106.68)
+		(uuid "92021306-b006-41b2-a9be-2ec133e05945")
+	)
+	(no_connect
+		(at 99.06 111.76)
+		(uuid "a812abb0-bf60-4e76-8d08-5acd73388e01")
+	)
+	(no_connect
+		(at 99.06 104.14)
+		(uuid "ae79150b-1faf-49ba-8c36-6dfbe64446f3")
+	)
+	(no_connect
+		(at 58.42 104.14)
+		(uuid "c99dda02-c606-4d47-a4c1-656624b05c9b")
+	)
+	(no_connect
+		(at 99.06 119.38)
+		(uuid "d2a0b49b-20fb-4fca-8368-0df18b5bcf2c")
+	)
+	(no_connect
+		(at 58.42 109.22)
+		(uuid "d7a7c3a2-ab66-46bc-bce2-23de7e64768d")
+	)
+	(no_connect
+		(at 58.42 114.3)
+		(uuid "e896227a-7957-470d-ac5f-dcd81a99d43f")
+	)
+	(no_connect
+		(at 99.06 106.68)
+		(uuid "ef95b775-fb62-437c-9b50-28f1ab4303bc")
+	)
+	(bus_entry
+		(at 151.13 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a806b5-33e0-44a5-ad74-329f84c2bfc2")
+	)
+	(bus_entry
+		(at 238.76 146.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a533dda-6c28-484f-b7bb-33744615bbec")
+	)
+	(bus_entry
+		(at 48.26 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bead7de-9925-4dde-9bc3-ee4364d4217a")
+	)
+	(bus_entry
+		(at 151.13 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c68e0fa-0f59-4fc7-a91a-5fcb53689539")
+	)
+	(bus_entry
+		(at 109.22 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f100d09-5403-4ec6-a98d-e8a8b651b197")
+	)
+	(bus_entry
+		(at 180.34 100.33)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7c7bd3-315d-44cb-9370-f38d56680863")
+	)
+	(bus_entry
+		(at 238.76 130.81)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e521c4-e767-458f-b5b8-2504fa2492f5")
+	)
+	(bus_entry
+		(at 48.26 71.12)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116479f2-5623-452b-adb6-ee20c13f6bdc")
+	)
+	(bus_entry
+		(at 48.26 73.66)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13936ac6-fee3-4158-b5d5-cfb70284cf38")
+	)
+	(bus_entry
+		(at 109.22 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a9122a-88c3-4fee-b186-ae5db9701251")
+	)
+	(bus_entry
+		(at 209.55 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163b8f75-f88d-423c-b454-9b010214ef42")
+	)
+	(bus_entry
+		(at 238.76 69.85)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1799d6a8-d050-4a55-8b7d-82a2969d34df")
+	)
+	(bus_entry
+		(at 180.34 115.57)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18925ff3-fd97-4905-8ba4-546da31e6841")
+	)
+	(bus_entry
+		(at 48.26 91.44)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d81fce7-3016-411c-8054-176cca19cd12")
+	)
+	(bus_entry
+		(at 209.55 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e4f02b-4aff-448b-a4f2-6c0fdb21d3e6")
+	)
+	(bus_entry
+		(at 209.55 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b1e6d2-1404-404c-acd0-06733a346b41")
+	)
+	(bus_entry
+		(at 180.34 31.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27488bf3-949b-4594-8bbf-8d783b62037f")
+	)
+	(bus_entry
+		(at 151.13 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c161ea4-59d4-480f-a611-3c2e78e7d6cb")
+	)
+	(bus_entry
+		(at 48.26 83.82)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb32efa-deae-4337-bc84-3b5f7738e52d")
+	)
+	(bus_entry
+		(at 238.76 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a1fe3d-9b56-4999-a997-1c2fb12c5d8f")
+	)
+	(bus_entry
+		(at 109.22 99.06)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44adcf1c-8df0-4f2f-b906-ba78a4922545")
+	)
+	(bus_entry
+		(at 180.34 46.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d876f1-33ef-4d24-bd5d-7eaba633bceb")
+	)
+	(bus_entry
+		(at 209.55 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4845fa10-5a1b-41d3-869d-6ae4fd612de3")
+	)
+	(bus_entry
+		(at 109.22 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e40b32-5917-4242-a9f1-f73754ac64e7")
+	)
+	(bus_entry
+		(at 209.55 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7de948-7eac-4b51-ac7d-84c6e1bbf70a")
+	)
+	(bus_entry
+		(at 209.55 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f108813-0562-4180-8fb9-276f1415e981")
+	)
+	(bus_entry
+		(at 209.55 39.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f693056-4307-456b-bc15-e4b856a01ef3")
+	)
+	(bus_entry
+		(at 151.13 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e65aea-62da-4889-b8b1-7832eb82430c")
+	)
+	(bus_entry
+		(at 48.26 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cad83b-283f-4a38-9aa8-056cb78fcb4e")
+	)
+	(bus_entry
+		(at 180.34 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a58ccb-d035-4938-8d0d-4f0c356b9f52")
+	)
+	(bus_entry
+		(at 151.13 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5412b745-549c-407c-a0cf-50ff773a6956")
+	)
+	(bus_entry
+		(at 238.76 62.23)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56bc20b3-1db8-4616-92bf-25bbf374d851")
+	)
+	(bus_entry
+		(at 151.13 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3f7ee0-0217-4fa8-9a60-483391b476e7")
+	)
+	(bus_entry
+		(at 48.26 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d5a476-2a62-4e4c-a4d0-02347b4826de")
+	)
+	(bus_entry
+		(at 109.22 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637030db-7e4e-40cc-a3ce-bc89c0a6cda3")
+	)
+	(bus_entry
+		(at 48.26 86.36)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64730908-5188-4812-ac2b-8d476f0add3d")
+	)
+	(bus_entry
+		(at 151.13 54.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663e0719-8164-40db-8f8e-d154e9805337")
+	)
+	(bus_entry
+		(at 151.13 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a80210e-9072-4b84-aa1c-41277bae980f")
+	)
+	(bus_entry
+		(at 109.22 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3f5e90-0670-4b80-b02d-a79637edee38")
+	)
+	(bus_entry
+		(at 209.55 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b90a394-378a-4c1e-b5dd-0b262a7a397c")
+	)
+	(bus_entry
+		(at 209.55 54.61)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7288c5-8fcb-4470-b898-3e3bb37a98a3")
+	)
+	(bus_entry
+		(at 48.26 88.9)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db0cd75-e8b8-4c0a-88f6-d839776ae0ab")
+	)
+	(bus_entry
+		(at 151.13 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f03a4dc-6650-427e-974f-01a711fb39fd")
+	)
+	(bus_entry
+		(at 109.22 63.5)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ab7cf1-46a4-4a24-b1b5-0543729580af")
+	)
+	(bus_entry
+		(at 109.22 60.96)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a5857d-2377-4058-8100-8020139741eb")
+	)
+	(bus_entry
+		(at 180.34 92.71)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c13fd3-618b-4f8e-a41a-bea9650d4de1")
+	)
+	(bus_entry
+		(at 238.76 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7654aa0a-5328-42eb-9eb5-be3146f10769")
+	)
+	(bus_entry
+		(at 180.34 69.85)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776ee226-8274-4384-aa66-3e232eafb542")
+	)
+	(bus_entry
+		(at 238.76 39.37)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b9ea08b-d70a-443a-b388-a9c5ce93b6d9")
+	)
+	(bus_entry
+		(at 109.22 78.74)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e42a270-507c-46c1-aedd-755ca24663e1")
+	)
+	(bus_entry
+		(at 209.55 46.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e631a8a-ddd9-4575-bd3e-b3521ac26b57")
+	)
+	(bus_entry
+		(at 180.34 123.19)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f2c75c2-73ed-4f4d-ba7e-f8f3dfb851cb")
+	)
+	(bus_entry
+		(at 180.34 62.23)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa6cd3c-677a-4786-b3df-2308eb0f1539")
+	)
+	(bus_entry
+		(at 109.22 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d88e7a-1737-486c-9c9b-2bbfd0d700cb")
+	)
+	(bus_entry
+		(at 48.26 60.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9213d1b0-71ce-452b-bb2a-a9d66d12e0b1")
+	)
+	(bus_entry
+		(at 238.76 92.71)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e6fd9e-220a-4edd-b94a-208153527759")
+	)
+	(bus_entry
+		(at 109.22 66.04)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e7130f-627e-4778-9517-acb0c64af33b")
+	)
+	(bus_entry
+		(at 238.76 46.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98356d40-f9f3-49f7-8a3b-3966daa6c5c4")
+	)
+	(bus_entry
+		(at 48.26 93.98)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9871d3ec-aa3a-47e8-b572-3bc09fd055df")
+	)
+	(bus_entry
+		(at 180.34 107.95)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad97924-ea86-4908-86ed-6ced5927eda7")
+	)
+	(bus_entry
+		(at 238.76 115.57)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c89c70a-3cb3-4585-8f27-19697c4563f0")
+	)
+	(bus_entry
+		(at 109.22 73.66)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e46ffae-ccd6-40fc-adcb-114863070a91")
+	)
+	(bus_entry
+		(at 180.34 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec8f654-22bc-42b7-b74a-a75cffd41972")
+	)
+	(bus_entry
+		(at 209.55 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ffbe9c-3060-4e9b-9a13-18c0b8125ba7")
+	)
+	(bus_entry
+		(at 48.26 81.28)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c0ff10-701a-44d4-9471-176963ecf33c")
+	)
+	(bus_entry
+		(at 151.13 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7881a53-f23c-4cb3-a662-08f1a98e8594")
+	)
+	(bus_entry
+		(at 238.76 77.47)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7dda842-9996-43c8-9acb-2e918fe02fc0")
+	)
+	(bus_entry
+		(at 109.22 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab106a8d-6e50-4c0d-a2bd-77105cb71206")
+	)
+	(bus_entry
+		(at 48.26 96.52)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae76f56c-4a7c-432c-a1ec-12cc22c559a5")
+	)
+	(bus_entry
+		(at 209.55 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0bb923-0e69-47d4-944a-eddd1b750f01")
+	)
+	(bus_entry
+		(at 151.13 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bd43cd-c921-4fd3-bfa1-ec31bfda34ab")
+	)
+	(bus_entry
+		(at 238.76 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba523e03-f947-4459-8f39-83f84036628d")
+	)
+	(bus_entry
+		(at 151.13 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffd9177-edb6-4e8f-87d0-2a4483d6dc65")
+	)
+	(bus_entry
+		(at 48.26 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c83a6111-ed64-4e97-a2f2-eeb755136a56")
+	)
+	(bus_entry
+		(at 209.55 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c939bb6a-3eb6-4202-80fd-41629f3082dc")
+	)
+	(bus_entry
+		(at 48.26 78.74)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca557d22-e022-4991-83c8-300e8d756f41")
+	)
+	(bus_entry
+		(at 151.13 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5c2c97-6464-4d4e-8610-74fc11d723c5")
+	)
+	(bus_entry
+		(at 109.22 71.12)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb787b1a-45b3-4820-844e-f225ee40ef42")
+	)
+	(bus_entry
+		(at 209.55 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbf724a-9f2f-45f4-bc60-f2b74fa916fc")
+	)
+	(bus_entry
+		(at 238.76 100.33)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0eb4862-c89e-4fc3-8cc4-4aaebfe571f3")
+	)
+	(bus_entry
+		(at 180.34 146.05)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cf048b-bd6a-4e8d-aee2-2e877f79e502")
+	)
+	(bus_entry
+		(at 238.76 107.95)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddba0863-a739-4002-8dc4-5f2efdc190e7")
+	)
+	(bus_entry
+		(at 109.22 96.52)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de662b5a-fd54-4eda-9e5f-9c4da1584d46")
+	)
+	(bus_entry
+		(at 209.55 62.23)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df21b1e9-bce4-43c7-a945-0d62c5ca6cd3")
+	)
+	(bus_entry
+		(at 180.34 77.47)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3aceeb9-a7e6-4905-a927-c3ca8176a0ff")
+	)
+	(bus_entry
+		(at 238.76 31.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c17a9a-b8af-4a6c-aabf-4fb9486700d9")
+	)
+	(bus_entry
+		(at 180.34 138.43)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e791de-ffba-401f-9e85-e4d6c9682def")
+	)
+	(bus_entry
+		(at 151.13 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4fab89-6caf-453b-a813-aeb7f636b5c4")
+	)
+	(bus_entry
+		(at 48.26 76.2)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3d720a-48e6-4a33-864b-1b796a94c5b1")
+	)
+	(bus_entry
+		(at 209.55 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec960567-50e5-4ae8-887e-aee18c08f0f8")
+	)
+	(bus_entry
+		(at 180.34 39.37)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeab1ce9-f5b4-4aef-9dc6-75a90b422844")
+	)
+	(bus_entry
+		(at 151.13 62.23)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef00bc9f-24d8-4ad4-8951-26c9ebd42b39")
+	)
+	(bus_entry
+		(at 109.22 68.58)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a3f620-e6d9-487d-9cbd-6c3ba008473f")
+	)
+	(bus_entry
+		(at 238.76 123.19)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f783bc3a-5ca0-4736-964d-8797ce24189e")
+	)
+	(bus_entry
+		(at 151.13 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff968ffb-5c19-408f-8bc2-3cf482cbdf19")
+	)
+	(bus_entry
+		(at 180.34 130.81)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc86d32-4251-4267-9812-32e85982de09")
+	)
+	(bus
+		(pts
+			(xy 48.26 96.52) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0276748a-25db-4a9a-b224-4b0b4c790a9c")
+	)
+	(bus
+		(pts
+			(xy 109.22 96.52) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02eee119-5fdb-4dc2-8a46-3aedd210c59e")
+	)
+	(bus
+		(pts
+			(xy 109.22 99.06) (xy 109.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035ec1c7-799b-49e8-a1c7-8b35d2462db5")
+	)
+	(wire
+		(pts
+			(xy 153.67 118.11) (xy 157.48 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b8d67a-4a9b-497e-991d-1ff11d05b6ce")
+	)
+	(bus
+		(pts
+			(xy 209.55 146.05) (xy 209.55 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05034506-0865-4bb9-86e1-45ef4894678d")
+	)
+	(bus
+		(pts
+			(xy 180.34 29.21) (xy 184.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0553502a-d5b9-4d05-98a4-083640ef3d95")
+	)
+	(bus
+		(pts
+			(xy 48.26 76.2) (xy 48.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06270262-1bdf-440f-ab39-b6eefe459088")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06739616-1c1b-4131-bc20-f01ecf851e5e")
+	)
+	(wire
+		(pts
+			(xy 50.8 81.28) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0868e2c9-b16f-472b-8ce8-1176262bed56")
+	)
+	(wire
+		(pts
+			(xy 212.09 148.59) (xy 215.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f78527-ffa0-4647-aaf2-7f734c351249")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a645032-ef30-4f15-b541-532c1a7c2fee")
+	)
+	(bus
+		(pts
+			(xy 48.26 60.96) (xy 48.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca42193-0f8f-4974-a47c-160f909a82a3")
+	)
+	(bus
+		(pts
+			(xy 180.34 69.85) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0bfe8c-d38f-4583-9942-a1ed5ab75a4e")
+	)
+	(bus
+		(pts
+			(xy 209.55 54.61) (xy 209.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb4dca1-1a4f-493f-97c5-3ff455a93ddd")
+	)
+	(bus
+		(pts
+			(xy 48.26 68.58) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fcd1720-bdc7-42cb-81a1-214ab714b5b7")
+	)
+	(bus
+		(pts
+			(xy 238.76 115.57) (xy 238.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10663213-e995-4a46-afae-02f49c711205")
+	)
+	(wire
+		(pts
+			(xy 170.18 57.15) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120f5108-bea5-4932-bee9-ee0fbdcfda97")
+	)
+	(bus
+		(pts
+			(xy 109.22 63.5) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15adacd8-66b5-48b6-821b-2bfa76b072ff")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.25) (xy 236.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c6e9f8-660f-433e-9046-b8311d4582b8")
+	)
+	(wire
+		(pts
+			(xy 212.09 80.01) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183878cc-b09d-4659-9efc-00bdeab7c0d5")
+	)
+	(wire
+		(pts
+			(xy 99.06 99.06) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1937369e-ebb1-47ad-a88c-c9fb98816ca8")
+	)
+	(bus
+		(pts
+			(xy 209.55 100.33) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adc64f2-70a5-4625-b91a-0285be9ca69b")
+	)
+	(bus
+		(pts
+			(xy 151.13 69.85) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1380c6-a450-45d8-84ec-fbf6b0108016")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0c2763-b2f2-4020-b63c-7a978d75a2fc")
+	)
+	(bus
+		(pts
+			(xy 109.22 81.28) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f85a409-7660-4648-800d-402ef75a6e3f")
+	)
+	(wire
+		(pts
+			(xy 212.09 49.53) (xy 215.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe64a8c-aaa8-4567-93d4-745411bc059e")
+	)
+	(bus
+		(pts
+			(xy 209.55 77.47) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feeb373-af38-4785-85ae-2efa6bcc08df")
+	)
+	(bus
+		(pts
+			(xy 109.22 60.96) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2012897f-7557-4c48-be19-c5f7e68d7114")
+	)
+	(wire
+		(pts
+			(xy 170.18 41.91) (xy 177.8 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206ed74c-420d-40e8-a4e5-d3df217af39e")
+	)
+	(wire
+		(pts
+			(xy 99.06 127) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22eb5c31-8289-43f2-b6cf-011a571c7f21")
+	)
+	(wire
+		(pts
+			(xy 212.09 125.73) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23888315-e404-4fff-a942-c5c8637d09f7")
+	)
+	(bus
+		(pts
+			(xy 209.55 92.71) (xy 209.55 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c2865e-29c7-4bc5-a2a6-4dadd36694d0")
+	)
+	(bus
+		(pts
+			(xy 238.76 39.37) (xy 238.76 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f21190-64c6-40f0-ab52-00330f4e3428")
+	)
+	(wire
+		(pts
+			(xy 170.18 49.53) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "244c6d2a-dd0b-4c51-820f-9b6708fee875")
+	)
+	(bus
+		(pts
+			(xy 238.76 123.19) (xy 238.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b42bf2-3ac7-46f2-876f-c970ffdfa347")
+	)
+	(wire
+		(pts
+			(xy 153.67 148.59) (xy 157.48 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d561da-b320-4dc4-bb13-f8274cf50f56")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 236.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275ef3bd-dea9-4465-bb7c-c1cc683fd763")
+	)
+	(bus
+		(pts
+			(xy 180.34 107.95) (xy 180.34 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b3c490-1710-44d4-a6cd-9b8b884b0b39")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29915f27-fa58-41a6-aaef-b40ff61f8bb0")
+	)
+	(wire
+		(pts
+			(xy 228.6 140.97) (xy 236.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a937b52-93f2-45d0-b381-676a3c41138a")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 177.8 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1e1053-67bb-4a97-87cc-e121033f3f2a")
+	)
+	(bus
+		(pts
+			(xy 48.26 93.98) (xy 48.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b86749d-963c-4561-9d77-b8c0546f761c")
+	)
+	(wire
+		(pts
+			(xy 212.09 72.39) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8f5c7e-0082-4d4c-8f63-16ef21962cbe")
+	)
+	(wire
+		(pts
+			(xy 50.8 71.12) (xy 58.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdf1609-3d3a-4ba5-a696-9c4f18128d82")
+	)
+	(bus
+		(pts
+			(xy 109.22 68.58) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfa4b69-43d2-4cf1-a701-fa97433a38a5")
+	)
+	(bus
+		(pts
+			(xy 180.34 130.81) (xy 180.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f707df7-2fe0-4f47-99a1-f33a2cecb6b8")
+	)
+	(wire
+		(pts
+			(xy 170.18 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325996b4-38db-49f4-9b9d-771c9a651b30")
+	)
+	(wire
+		(pts
+			(xy 212.09 34.29) (xy 215.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349450ef-5b4f-40c3-a206-6248e7aac8cb")
+	)
+	(bus
+		(pts
+			(xy 238.76 54.61) (xy 238.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35997653-2339-4dd3-a071-28c73c6cf8ac")
+	)
+	(bus
+		(pts
+			(xy 180.34 138.43) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361d0291-d8e8-46f0-9638-774cec4afe54")
+	)
+	(bus
+		(pts
+			(xy 151.13 39.37) (xy 151.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374b6989-272c-4448-9c65-ddf10fbc1052")
+	)
+	(bus
+		(pts
+			(xy 109.22 71.12) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378d739b-f1af-4769-8860-bab0ed3a8881")
+	)
+	(bus
+		(pts
+			(xy 48.26 91.44) (xy 48.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3796be51-bd7d-4a99-a7f1-c3788e6085f2")
+	)
+	(wire
+		(pts
+			(xy 170.18 140.97) (xy 177.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ab75486-e863-4d9f-801e-351f8e5a1d87")
+	)
+	(bus
+		(pts
+			(xy 109.22 93.98) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3abf4d7d-fa9d-4515-9c97-b2bbf5a4afe0")
+	)
+	(bus
+		(pts
+			(xy 48.26 99.06) (xy 48.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae7b170-e243-4e79-b466-ba62fc3758f9")
+	)
+	(bus
+		(pts
+			(xy 48.26 88.9) (xy 48.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc2ceb5-b6b0-4a1a-b0d7-52576e555332")
+	)
+	(bus
+		(pts
+			(xy 147.32 29.21) (xy 151.13 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ded51ab-b881-4f39-88a2-0e46a209f043")
+	)
+	(bus
+		(pts
+			(xy 48.26 63.5) (xy 48.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42027adc-99ff-4c08-ab23-069e736053ed")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424c2093-8974-4e0a-bc54-d39d6905b095")
+	)
+	(bus
+		(pts
+			(xy 238.76 62.23) (xy 238.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44074360-efed-4184-88b8-2d7304e3ab43")
+	)
+	(bus
+		(pts
+			(xy 151.13 115.57) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462c3a5b-84fb-410b-8782-1593a8f8281d")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 157.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4847b9a9-282d-4825-8807-b88e7ca8e4c1")
+	)
+	(wire
+		(pts
+			(xy 109.22 127) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49efbc2d-c178-4e1b-977a-62cf897455bf")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 106.68 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8b15be-588a-4dad-8288-98fd63027fc1")
+	)
+	(bus
+		(pts
+			(xy 151.13 138.43) (xy 151.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc6cd12-8be7-460f-ae3e-d94817fc4387")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 58.42 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d22cec9-6f59-420c-a111-6d7d894b8c53")
+	)
+	(bus
+		(pts
+			(xy 48.26 66.04) (xy 48.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3c756c-8324-4a43-b045-497fb3657fa8")
+	)
+	(bus
+		(pts
+			(xy 151.13 54.61) (xy 151.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3ed4b5-3865-4856-a069-2e40cb2eedea")
+	)
+	(bus
+		(pts
+			(xy 151.13 123.19) (xy 151.13 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4f8ae1-dbaf-493e-9764-fb0c9b0471f0")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5080cc7c-4179-4a0f-a34b-9f402caefe65")
+	)
+	(wire
+		(pts
+			(xy 153.67 125.73) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510431ce-0fb2-4fcd-9a03-065d7bc2bdf1")
+	)
+	(wire
+		(pts
+			(xy 228.6 57.15) (xy 236.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b7c84b-6a52-4f00-97db-392619b6ad9b")
+	)
+	(bus
+		(pts
+			(xy 151.13 46.99) (xy 151.13 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53691140-724e-464f-9cc8-88a593bcce36")
+	)
+	(bus
+		(pts
+			(xy 151.13 77.47) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543ee687-c5ab-481e-bcca-32fc4f4fb337")
+	)
+	(wire
+		(pts
+			(xy 228.6 110.49) (xy 236.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a25683-26af-42ce-94b8-393a3af1d6b8")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5a517b-3c8c-4809-a0a6-7ec1f1bac4eb")
+	)
+	(bus
+		(pts
+			(xy 151.13 31.75) (xy 151.13 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f44310e-6103-401d-96f7-642ae5c07ed5")
+	)
+	(wire
+		(pts
+			(xy 228.6 87.63) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f507737-e87d-40dc-ba0c-902137d01ad7")
+	)
+	(wire
+		(pts
+			(xy 228.6 41.91) (xy 236.22 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fba3e11-812f-4b95-a8d0-f52691281da6")
+	)
+	(wire
+		(pts
+			(xy 170.18 118.11) (xy 177.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608787eb-0459-4a91-bf72-218dcec5b352")
+	)
+	(bus
+		(pts
+			(xy 180.34 92.71) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d4a767-df8f-403f-bbd8-b34d460f42ad")
+	)
+	(bus
+		(pts
+			(xy 45.72 102.87) (xy 48.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b4bd31-08db-4c21-90d9-a465b51c7c30")
+	)
+	(bus
+		(pts
+			(xy 238.76 77.47) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6447b024-10f5-4e6a-9b8c-ba0ded8ebfb8")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a53d0a-ead2-4a4f-b7b6-6d9cfbc6fd10")
+	)
+	(wire
+		(pts
+			(xy 170.18 133.35) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6616b5e6-d761-45ce-a95e-423138e67110")
+	)
+	(wire
+		(pts
+			(xy 99.06 78.74) (xy 106.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67341666-eeaf-4705-b755-3a049bd7e183")
+	)
+	(bus
+		(pts
+			(xy 48.26 71.12) (xy 48.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cee6d82-8792-4ac7-b5d7-f9479a6c9000")
+	)
+	(bus
+		(pts
+			(xy 151.13 130.81) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df4ed15-84c1-4d5b-8d52-91ff002ddf8e")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4428d2-3ad5-4ddd-8efa-1042310ee14b")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70530243-9dd7-4f69-a83b-09a85a4bb4ea")
+	)
+	(bus
+		(pts
+			(xy 48.26 73.66) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7186af7d-28f3-4559-bf9f-70c21c18256d")
+	)
+	(bus
+		(pts
+			(xy 151.13 62.23) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72019233-d47d-41fa-9110-4d20c97974e6")
+	)
+	(wire
+		(pts
+			(xy 50.8 86.36) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735ca221-06e9-45ec-8303-7564871437e1")
+	)
+	(bus
+		(pts
+			(xy 238.76 29.21) (xy 242.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74855c34-ef48-4d99-812b-54a8d0fa8fd8")
+	)
+	(wire
+		(pts
+			(xy 50.8 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7527ddb4-63e0-4708-8af3-40f21871563c")
+	)
+	(bus
+		(pts
+			(xy 238.76 92.71) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ab3d49-8f30-491c-9750-e2c4b516e631")
+	)
+	(bus
+		(pts
+			(xy 209.55 62.23) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dc1744-2f05-419e-82f8-44caf98f8afb")
+	)
+	(bus
+		(pts
+			(xy 209.55 46.99) (xy 209.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7959435a-1100-4118-9276-d856875107f9")
+	)
+	(bus
+		(pts
+			(xy 109.22 88.9) (xy 109.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0e529f-2337-4f37-950e-acceb25e64a7")
+	)
+	(bus
+		(pts
+			(xy 151.13 85.09) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7caff088-a725-40da-bc9a-a2817ef96cf1")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 106.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de5970f-e513-4c62-a025-53429cd90c2a")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 58.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fd1e8a4-9e06-41ae-97e3-efe878a30eac")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.11) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c012df-c98b-4c21-bed4-a9e57ab96f66")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8121e6a1-fde2-4a71-befd-d7941afbf1e2")
+	)
+	(wire
+		(pts
+			(xy 153.67 49.53) (xy 157.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8243a150-7a1c-4bb0-9587-f67866c4c7db")
+	)
+	(bus
+		(pts
+			(xy 238.76 100.33) (xy 238.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f0c077-8437-400a-80ad-33d254481632")
+	)
+	(bus
+		(pts
+			(xy 151.13 100.33) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8494e644-d101-4df7-a242-bce97de66e07")
+	)
+	(bus
+		(pts
+			(xy 48.26 86.36) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b753a4-f132-4edb-a20e-56a2829e0fd0")
+	)
+	(bus
+		(pts
+			(xy 180.34 100.33) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861d9247-83ae-4c6d-9bef-c918d5e04a12")
+	)
+	(bus
+		(pts
+			(xy 109.22 86.36) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86233562-0f6f-4f8f-b970-ea8070b78bdd")
+	)
+	(bus
+		(pts
+			(xy 48.26 78.74) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b5721b-a850-4109-a157-294cb9e6a919")
+	)
+	(bus
+		(pts
+			(xy 180.34 46.99) (xy 180.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897f0db3-77df-4aed-b0b4-dab798d1fdcc")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad704de-31bf-4b72-a816-f8920ec61ff5")
+	)
+	(bus
+		(pts
+			(xy 209.55 39.37) (xy 209.55 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae4c124-5298-4ee9-b82a-77b7456f9d2c")
+	)
+	(bus
+		(pts
+			(xy 238.76 69.85) (xy 238.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bf67f6f-5567-4517-bd37-125eef0ff52c")
+	)
+	(wire
+		(pts
+			(xy 50.8 68.58) (xy 58.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd34cd3-c254-408b-8f7a-119ce728e8b3")
+	)
+	(bus
+		(pts
+			(xy 238.76 31.75) (xy 238.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9274d3-efe8-4e06-8fe8-9b6dd4725506")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebbac3f-47fe-4fd6-8ac0-243d8eee8805")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 236.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd6acee-7bd3-49d9-8312-f4eca52a48d8")
+	)
+	(bus
+		(pts
+			(xy 109.22 91.44) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907dd656-5bd4-42d6-9ef3-b8cdfa2f4eca")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922f66b8-e306-42dd-adcf-650d371d6b53")
+	)
+	(wire
+		(pts
+			(xy 228.6 72.39) (xy 236.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ad9cb5-4485-4220-be2d-f4d8cbd0af7c")
+	)
+	(bus
+		(pts
+			(xy 209.55 138.43) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c9c119-ce1c-416b-8faf-51eba90c73a9")
+	)
+	(bus
+		(pts
+			(xy 209.55 85.09) (xy 209.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ee2881-2484-470e-b6e0-52164826126d")
+	)
+	(bus
+		(pts
+			(xy 209.55 130.81) (xy 209.55 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9580000d-f2e9-489f-8f22-f21392a29f75")
+	)
+	(wire
+		(pts
+			(xy 99.06 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95923aaf-325a-4dac-a78a-32540a39b591")
+	)
+	(bus
+		(pts
+			(xy 238.76 107.95) (xy 238.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97190335-ed6f-4856-abae-92139ba0586d")
+	)
+	(wire
+		(pts
+			(xy 228.6 125.73) (xy 236.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97da4052-6e97-4a8c-97a0-d3445f54394e")
+	)
+	(bus
+		(pts
+			(xy 209.55 123.19) (xy 209.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993c3e68-1dfe-4c5d-94e0-44642c52d5df")
+	)
+	(wire
+		(pts
+			(xy 109.22 132.08) (xy 109.22 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a11efca-42cb-4547-beb7-4ea7bfd35b75")
+	)
+	(wire
+		(pts
+			(xy 170.18 148.59) (xy 177.8 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc8937f-c0e6-441f-957f-a34a2004aae2")
+	)
+	(wire
+		(pts
+			(xy 212.09 102.87) (xy 215.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8b124e-3f33-400b-9faf-b9de83720860")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 157.48 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d629b0e-3ad4-4831-b478-7965d4e0fafa")
+	)
+	(wire
+		(pts
+			(xy 50.8 99.06) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb61373-c8dd-4c5d-8fc4-f5ea39002deb")
+	)
+	(wire
+		(pts
+			(xy 212.09 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f43fba6-c6ab-422f-bf37-ed67a9853a38")
+	)
+	(bus
+		(pts
+			(xy 151.13 92.71) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7381d6d-807a-421f-bb9c-606f58082dbc")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7cee0a2-d5f3-4b6d-ab52-119f7e9da0be")
+	)
+	(bus
+		(pts
+			(xy 180.34 123.19) (xy 180.34 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f6abf3-d125-4c73-a8c3-e6fa239435aa")
+	)
+	(bus
+		(pts
+			(xy 180.34 62.23) (xy 180.34 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8556f6a-16fa-4188-a9eb-46d7443940ff")
+	)
+	(bus
+		(pts
+			(xy 48.26 81.28) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7c5e97-4c5a-433d-ac9a-63f91ffc0c69")
+	)
+	(bus
+		(pts
+			(xy 48.26 83.82) (xy 48.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa81a8fe-cf24-4ecf-afe9-bd7480cc271f")
+	)
+	(wire
+		(pts
+			(xy 228.6 133.35) (xy 236.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7c271a-6b6e-4604-806c-398213910aaa")
+	)
+	(bus
+		(pts
+			(xy 151.13 107.95) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3fb5b0-081c-44d8-b62c-e31f1a59c83a")
+	)
+	(wire
+		(pts
+			(xy 99.06 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acaa02e3-50db-4003-a7f6-3e35942b9c7e")
+	)
+	(bus
+		(pts
+			(xy 111.76 102.87) (xy 109.22 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6758d3-5e35-46d6-a317-e9b02914c712")
+	)
+	(wire
+		(pts
+			(xy 228.6 49.53) (xy 236.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c00e41-6a43-4845-a801-5a907b772e83")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 106.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e1ef4b-38bc-4f78-8096-d0fe969aea69")
+	)
+	(bus
+		(pts
+			(xy 109.22 66.04) (xy 109.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22033a0-fadd-4451-bbca-8b9b12722dc9")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37575fd-e0e2-4d3b-8033-b7cced6ccc8a")
+	)
+	(bus
+		(pts
+			(xy 180.34 31.75) (xy 180.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50d661d-c0f3-46aa-a42f-cdd55888fc12")
+	)
+	(bus
+		(pts
+			(xy 209.55 115.57) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b50fbc76-5b6e-4058-a52b-2f5cb9d23486")
+	)
+	(bus
+		(pts
+			(xy 180.34 29.21) (xy 180.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89e88f6-caa0-4e49-91c9-6fdfa02db394")
+	)
+	(bus
+		(pts
+			(xy 180.34 115.57) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94de5ae-7f38-4615-a5ce-994b465372b5")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9593d53-aef0-4a99-9762-a8ac0873f8e0")
+	)
+	(wire
+		(pts
+			(xy 170.18 34.29) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc16d027-dcb3-4844-80a0-84fa487345b4")
+	)
+	(wire
+		(pts
+			(xy 50.8 78.74) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce6f450-4d3c-4e88-bece-69f3ea8fcaab")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beff709f-0aeb-4dfd-89cd-11a1956327ec")
+	)
+	(wire
+		(pts
+			(xy 50.8 96.52) (xy 58.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf090bbd-bc51-41d0-9319-63993f387fc1")
+	)
+	(bus
+		(pts
+			(xy 109.22 73.66) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1208fdc-7725-4f1a-9318-4deac40068ef")
+	)
+	(bus
+		(pts
+			(xy 109.22 78.74) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18294c4-8695-41ae-a092-a099e77c44b2")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55c5469-6c60-428f-b3de-a701a7e1082d")
+	)
+	(bus
+		(pts
+			(xy 238.76 138.43) (xy 238.76 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5b7872f-0dc4-45f9-ad17-0503fe4907d4")
+	)
+	(bus
+		(pts
+			(xy 238.76 29.21) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d79442-7351-458f-bc13-3d5e6a154bd3")
+	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c49419-8f5a-45bd-96f0-e0a6260d7d8e")
+	)
+	(wire
+		(pts
+			(xy 153.67 57.15) (xy 157.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d44e0e-da36-41bc-a383-355d8f6c3c5e")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7079f8-ad3f-4356-be15-72a974484400")
+	)
+	(bus
+		(pts
+			(xy 238.76 46.99) (xy 238.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad8651c-1f72-4bc3-a5a0-6cda28f7f2b5")
+	)
+	(wire
+		(pts
+			(xy 212.09 110.49) (xy 215.9 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4d4dac-2de2-41d3-a625-2dae3d8ea778")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbac59bd-5c2e-4e21-996f-e4de26378087")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc18c0a9-fb10-4e9d-a741-f92807085ae4")
+	)
+	(bus
+		(pts
+			(xy 180.34 54.61) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3163c8-edff-4698-8fe4-c0b04a67aaf0")
+	)
+	(wire
+		(pts
+			(xy 228.6 64.77) (xy 236.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc420ad7-cc95-4145-84dc-a47da0222308")
+	)
+	(bus
+		(pts
+			(xy 151.13 146.05) (xy 151.13 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b477b7-7a4c-404a-b8ec-24e6d29281a6")
+	)
+	(bus
+		(pts
+			(xy 209.55 69.85) (xy 209.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1126465-e34e-4ef3-954f-5fa1609aa73e")
+	)
+	(wire
+		(pts
+			(xy 228.6 34.29) (xy 236.22 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3839a30-85cf-4790-9980-7c1cb01a2320")
+	)
+	(wire
+		(pts
+			(xy 170.18 64.77) (xy 177.8 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65515fb-891d-4a0f-ac91-fde4f85bda8a")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66693ca-9318-444d-9ba0-d319c3051f62")
+	)
+	(wire
+		(pts
+			(xy 153.67 102.87) (xy 157.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d77ff5-9e6c-4ce1-80ce-7be1fd32b5e9")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 106.68 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa18801-7139-4381-8bfc-fc5cc3009fa1")
+	)
+	(wire
+		(pts
+			(xy 170.18 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadc9a37-1302-4ba1-ad4a-b8b78cfb2e16")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda4af1a-e600-4222-b8f7-710ff689f774")
+	)
+	(wire
+		(pts
+			(xy 153.67 140.97) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df557ec4-c8d1-4877-848c-73269c4211a5")
+	)
+	(bus
+		(pts
+			(xy 205.74 29.21) (xy 209.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f6ba33-70a2-494e-8068-ec35d2d1735b")
+	)
+	(wire
+		(pts
+			(xy 212.09 140.97) (xy 215.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24cec39-852b-4c73-af70-fa86645c1527")
+	)
+	(bus
+		(pts
+			(xy 180.34 77.47) (xy 180.34 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36d16bd-ecc5-44d2-88d6-78ae68ee2717")
+	)
+	(bus
+		(pts
+			(xy 180.34 85.09) (xy 180.34 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6747418-f19d-4e77-a192-69dde5b97aeb")
+	)
+	(bus
+		(pts
+			(xy 180.34 39.37) (xy 180.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69383c6-e71c-45e6-9300-3aa4265fca1d")
+	)
+	(bus
+		(pts
+			(xy 238.76 85.09) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6dc6c2f-e02b-4b38-8c06-b8a6f92f7ade")
+	)
+	(bus
+		(pts
+			(xy 209.55 31.75) (xy 209.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ea5a37-9931-4baf-b339-ee300e47e306")
+	)
+	(wire
+		(pts
+			(xy 228.6 148.59) (xy 236.22 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7715c26-22cb-409b-9d33-14d4685e0651")
+	)
+	(bus
+		(pts
+			(xy 238.76 130.81) (xy 238.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e814eb72-a7fe-45a5-b7b4-d6d8447ea54f")
+	)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e869ac92-4973-4d79-8c5b-287f219ddc88")
+	)
+	(bus
+		(pts
+			(xy 109.22 76.2) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c3a219-7754-4fcd-b40b-4554697f999d")
+	)
+	(wire
+		(pts
+			(xy 99.06 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a6e08a-e84d-48d8-b475-32bc216eea51")
+	)
+	(bus
+		(pts
+			(xy 209.55 107.95) (xy 209.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea339bfc-b1f3-4e3f-a5ed-58625bcc13d8")
+	)
+	(bus
+		(pts
+			(xy 109.22 83.82) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd1d5e4-0521-4201-9120-914232577017")
+	)
+	(wire
+		(pts
+			(xy 109.22 129.54) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b2d2ea-5dae-4f1b-b85f-4b4ca702ce8c")
+	)
+	(wire
+		(pts
+			(xy 99.06 132.08) (xy 109.22 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22935f6-1574-425b-bf33-f9d52b9d0c80")
+	)
+	(wire
+		(pts
+			(xy 212.09 41.91) (xy 215.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40b1f64-ed13-45a9-ad57-5f5fc18d3502")
+	)
+	(wire
+		(pts
+			(xy 212.09 64.77) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b0a01f-2c33-4e1d-b1d9-7cb39a7bb81a")
+	)
+	(wire
+		(pts
+			(xy 50.8 76.2) (xy 58.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f696f4ed-68d3-4067-874b-b5e06a8aff39")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f988a716-7a7e-41c0-bb1d-b81bc2f27abc")
+	)
+	(wire
+		(pts
+			(xy 212.09 133.35) (xy 215.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc627ae4-4bd6-49f9-9f22-23d8cb3e3651")
+	)
+	(wire
+		(pts
+			(xy 212.09 95.25) (xy 215.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc68f2a0-0283-4276-8c7e-95a781a42d1b")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd67218-9ad2-42f9-a309-c534db076911")
+	)
+	(wire
+		(pts
+			(xy 50.8 91.44) (xy 58.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffab7c16-eb67-46f2-9678-ae3b70a19343")
+	)
+	(text "outputs are configured to R/G/B LEDs -- \ndoes it matter if we put a red LED on a green output?"
+		(exclude_from_sim no)
+		(at 52.07 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1037ad4b-b4f3-4210-a97b-6a042fe4bee3")
+	)
+	(text "thermal pad (57) must be \nconnected to GND via PCB"
+		(exclude_from_sim no)
+		(at 92.456 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d57d56e6-4036-4cef-82ca-43963c31b8cd")
+	)
+	(label "LED116"
+		(at 177.8 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00be86e3-5ca6-423a-85f5-786c148c817b")
+	)
+	(label "L[125..140]"
+		(at 242.57 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d09ec5e-daf3-4aca-8f93-90bc2658ce80")
+	)
+	(label "LED130"
+		(at 99.06 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19110457-d827-4148-b60d-77942e45532c")
+	)
+	(label "LED113"
+		(at 177.8 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "197ae7f8-e8d0-4aed-b84e-0e211c63239c")
+	)
+	(label "LED124"
+		(at 177.8 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a3a77a8-c038-4d16-b627-aee026960657")
+	)
+	(label "LED115"
+		(at 58.42 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b4f9a72-efa4-4903-bcaf-4a4642037e7e")
+	)
+	(label "LED117"
+		(at 58.42 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "211d251f-6369-4938-b549-bd8f6b144501")
+	)
+	(label "LED133"
+		(at 99.06 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26b1dc7c-3396-41cd-bbe3-c7861b5b9750")
+	)
+	(label "LED119"
+		(at 177.8 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27ce12d1-338d-4bbc-8ec5-61e52dd4577f")
+	)
+	(label "LED109"
+		(at 58.42 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e881ceb-67a3-4d2e-a606-69a89c8ff574")
+	)
+	(label "LED138"
+		(at 228.6 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "300e3eca-de7f-4c90-8c1f-fbac12db68fa")
+	)
+	(label "LED139"
+		(at 228.6 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "382fc970-ff32-4336-a669-1cbe3a31e22a")
+	)
+	(label "LED137"
+		(at 228.6 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "433af361-22ab-4c8f-9b20-6b40e51604b3")
+	)
+	(label "LED121"
+		(at 177.8 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "459fba74-79f9-435f-a00b-a36bce21e2ea")
+	)
+	(label "LED126"
+		(at 228.6 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46c12c3c-db74-4b9d-a62e-f3f61899e0d4")
+	)
+	(label "LED122"
+		(at 177.8 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d73c553-5b08-46fd-bad5-c128d6790cdd")
+	)
+	(label "LED139"
+		(at 99.06 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4faf4168-47aa-4888-91a8-e572be1a3832")
+	)
+	(label "LED118"
+		(at 58.42 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "514a2ea5-1942-4669-a892-b77565780122")
+	)
+	(label "LED129"
+		(at 99.06 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "524e90de-0d78-44df-b4ab-a05616b3620e")
+	)
+	(label "LED127"
+		(at 99.06 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58a64a2d-ef07-42db-a883-3fc24e671ec6")
+	)
+	(label "LED116"
+		(at 58.42 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5ba74abb-30e0-441f-8990-d16d3fdc98dc")
+	)
+	(label "LED127"
+		(at 228.6 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e964a1b-0a0c-4e84-b434-4b3c1beb5f1a")
+	)
+	(label "LED114"
+		(at 177.8 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65fbb9d5-8464-4cd0-b8e0-2531a77c2fe4")
+	)
+	(label "LED113"
+		(at 58.42 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a866155-5d5a-42a4-b115-0fa535252f07")
+	)
+	(label "LED138"
+		(at 99.06 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72a66d4f-81b7-41cb-ad81-1abd95159cde")
+	)
+	(label "LED112"
+		(at 177.8 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72bc9720-0fe4-4257-8998-f913f606edff")
+	)
+	(label "LED125"
+		(at 99.06 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73ddc25c-12a5-425c-9eff-6523d5c4d8f7")
+	)
+	(label "LED115"
+		(at 177.8 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74dc2953-c061-4b96-b526-a924b4ac4200")
+	)
+	(label "LED118"
+		(at 177.8 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7590b781-3d1d-40ce-8696-46bd8392556b")
+	)
+	(label "LED125"
+		(at 228.6 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a743512-aabd-45a8-b075-e11b0dea1c6f")
+	)
+	(label "LED117"
+		(at 177.8 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f4e78d3-e4bc-4115-9a83-d7471c636424")
+	)
+	(label "LED137"
+		(at 99.06 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "909bb408-61f3-485f-bcae-14d66854b945")
+	)
+	(label "LED112"
+		(at 58.42 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "913db841-3826-4aca-9397-dd796e620504")
+	)
+	(label "LED130"
+		(at 228.6 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9486b8c3-edac-4da7-b946-0113cd726160")
+	)
+	(label "L[109..124]"
+		(at 45.72 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "951aa563-e337-4d18-8312-d90166cf08c0")
+	)
+	(label "LED136"
+		(at 228.6 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9794a4e0-69cf-4782-b8cd-45ac8550210f")
+	)
+	(label "LED133"
+		(at 228.6 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99c0706a-bc02-4bab-9b4b-59e87ad7b3c8")
+	)
+	(label "LED119"
+		(at 58.42 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ac81bbc-4a14-47c2-838e-3b1d0d00d4ca")
+	)
+	(label "LED132"
+		(at 99.06 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e14c4e0-61aa-4050-8b85-6de59842bd1e")
+	)
+	(label "LED135"
+		(at 228.6 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f6e796a-b152-4594-9468-ca8a44a995f4")
+	)
+	(label "LED131"
+		(at 99.06 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5a2519c-659f-4c54-a7c3-fac8ec4d7fe5")
+	)
+	(label "LED111"
+		(at 177.8 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c113d5a6-bbf6-4dcb-ac47-3a4f3cbd644f")
+	)
+	(label "LED120"
+		(at 177.8 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2c489c6-1176-4eec-b7a7-09c126b00b4f")
+	)
+	(label "LED135"
+		(at 99.06 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c369e2fd-3d58-48ca-bc0f-88cbc880f335")
+	)
+	(label "LED129"
+		(at 228.6 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4260aab-5145-4548-884e-f27bae6815f2")
+	)
+	(label "LED123"
+		(at 177.8 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7925791-bc4d-40c0-b659-2f986389c4b7")
+	)
+	(label "LED124"
+		(at 58.42 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c936ec09-7378-40cb-b936-b76f3d07933c")
+	)
+	(label "LED110"
+		(at 58.42 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce10ce9f-b520-485e-80fc-391f6a51fd9e")
+	)
+	(label "LED131"
+		(at 228.6 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf4265b0-4ef4-42f9-8b63-0539586829f6")
+	)
+	(label "LED114"
+		(at 58.42 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6e66ea4-2956-4f88-ba9b-d1d35cf5884d")
+	)
+	(label "LED140"
+		(at 228.6 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dab2dcea-e18f-4b94-be04-3708b59ec203")
+	)
+	(label "LED134"
+		(at 99.06 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db8e2319-85ff-4f35-abd3-9bd950e5b702")
+	)
+	(label "LED121"
+		(at 58.42 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dcfcf4da-0f0e-4ad1-8a99-b6499592a27b")
+	)
+	(label "LED120"
+		(at 58.42 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "deede0f7-bd73-4cfe-a6e8-a2008bc69ae7")
+	)
+	(label "LED134"
+		(at 228.6 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfbbe47b-62a1-4eef-8095-8deb144cbc81")
+	)
+	(label "LED123"
+		(at 58.42 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e479b559-57cc-43ce-b494-52d4e7c380ff")
+	)
+	(label "LED140"
+		(at 99.06 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e807d868-a2b7-4225-9695-7e09e98b18e5")
+	)
+	(label "LED17"
+		(at 116.84 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9d8eea7-4040-49bb-ba6b-c13c4b09a879")
+	)
+	(label "LED122"
+		(at 58.42 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb79ca29-5f4d-49c9-843a-dd82939daa6f")
+	)
+	(label "LED109"
+		(at 177.8 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebd4d216-f34d-4e91-9db6-7f33b01ca685")
+	)
+	(label "LED126"
+		(at 99.06 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec4ecd70-e1c5-445c-871c-2fc2def3e821")
+	)
+	(label "LED110"
+		(at 177.8 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f03d6fbc-627d-44f5-9e6f-ed44ad2ccd55")
+	)
+	(label "LED136"
+		(at 99.06 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0b0ab48-e729-4648-86ef-2602822a1985")
+	)
+	(label "LED128"
+		(at 99.06 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f40df3be-8459-4980-ace7-4fcab1765908")
+	)
+	(label "LED128"
+		(at 228.6 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8c98333-0d8c-49e2-b10f-677be3594ddb")
+	)
+	(label "LED132"
+		(at 228.6 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb8292a4-7102-40b6-aa1a-a832b96d922e")
+	)
+	(label "L[109..124]"
+		(at 184.15 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcea3eee-b4ba-4936-8c78-56f84e6600b1")
+	)
+	(label "L[125..140]"
+		(at 111.76 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fda6454e-9118-481b-9ad7-e5addc10a522")
+	)
+	(label "LED111"
+		(at 58.42 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fec1cfd1-4c5c-481f-9670-7275ddd3eb5a")
+	)
+	(hierarchical_label "GSCLK"
+		(shape input)
+		(at 99.06 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e0e7ff2-8d7a-43bc-8a49-a89da9a290be")
+	)
+	(hierarchical_label "SOUT"
+		(shape output)
+		(at 99.06 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e0dd514-0555-4b5e-aa28-bdabff284aed")
+	)
+	(hierarchical_label "LAT"
+		(shape input)
+		(at 58.42 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95eb2e4d-6c2a-4e5b-8757-7f5557760eea")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 45.72 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97ca9d8e-242b-46ce-8598-868260d6f70f")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 147.32 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d7fc0b5-8a5a-410e-a622-9edd17a29a9e")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 205.74 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b814bd81-30cf-4e07-a3f1-46cbc0bf1dc2")
+	)
+	(hierarchical_label "SIN"
+		(shape input)
+		(at 58.42 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7ff8b09-270e-4f34-bda5-4ee132dc34d3")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 58.42 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f30bb494-7129-4c74-b309-ec169ef07541")
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03aaccfa-1f42-4a2c-a367-193ee6cedb38")
+		(property "Reference" "D30"
+			(at 163.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ceec08c2-9497-43bd-8c29-42c333a1f6f8")
+		)
+		(pin "C"
+			(uuid "a27bd9f2-8a03-44ca-8a29-696245ad8b08")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b0ac02a-be4c-47b5-8ffd-b222ae3431e1")
+		(property "Reference" "D28"
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "894ca9c6-5a7d-432d-bc68-128b3d297727")
+		)
+		(pin "C"
+			(uuid "026593cb-90c8-47b9-9c62-eb05cd8ef768")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c84bee0-a42f-473c-a8f0-c395d7b25982")
+		(property "Reference" "D7"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "1555e333-8710-420c-8625-73d9d6fd6c43")
+		)
+		(pin "C"
+			(uuid "9659c22e-d4e8-49a9-879a-6cd253fc40fb")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1365f459-d8c1-4c60-8bed-f903fe3cda1d")
+		(property "Reference" "D4"
+			(at 163.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "5035fc67-ae38-436b-8968-54803e9651e0")
+		)
+		(pin "C"
+			(uuid "1a8ffd55-d9ee-4ec4-82e9-43850800d929")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2f9650-7b97-43ca-8876-24750b90a5e5")
+		(property "Reference" "D1"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "a5090e63-adb1-4706-a0a8-f300a2d691ec")
+		)
+		(pin "C"
+			(uuid "fe34e250-c758-4df0-9e1a-cb453040620f")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21905b26-3e56-4459-b985-a6f9d1195bdd")
+		(property "Reference" "D89"
+			(at 222.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "1f1a6f19-4fe4-4dc8-b42e-c569014ceb31")
+		)
+		(pin "C"
+			(uuid "8285c6bc-8bd1-4746-b52f-6470a1d071fd")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25015131-cf87-4b70-b23c-3d49a9689227")
+		(property "Reference" "D3"
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "47b286fd-378a-4a48-aa35-a06a2975e1c2")
+		)
+		(pin "C"
+			(uuid "f9af7b6e-5d6e-4c97-9336-efd145f4c18e")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "309cf68d-b0c0-4549-9cb4-4234159a457f")
+		(property "Reference" "D31"
+			(at 163.83 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "7df20bcc-84ff-4d16-a449-380250bbe4fb")
+		)
+		(pin "C"
+			(uuid "623104a5-864d-4c92-a95b-0249be5e7646")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375b13a7-67e4-41d0-97ff-811cc671f63f")
+		(property "Reference" "D107"
+			(at 222.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "9f62d3d5-3c3f-435c-bdf3-e530cd05cbf0")
+		)
+		(pin "C"
+			(uuid "04614d3c-4a1d-4a46-a59f-1f8daaf40750")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41f4baad-b0b5-4b18-9ec3-13302116ec42")
+		(property "Reference" "D44"
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "c8478ced-7ee4-4cd1-b5d2-e01b6f7e008e")
+		)
+		(pin "C"
+			(uuid "de769760-f364-478b-8864-9f770105a95a")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4398e46c-2b41-4742-9898-aa46d7afdfbf")
+		(property "Reference" "D88"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "8b9f2211-1231-44f2-9b7e-6cff590831cc")
+		)
+		(pin "C"
+			(uuid "87ec2dd0-a7a8-4a93-a9c9-e6574cebeda5")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 48.26 48.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "450807f4-6df2-4576-9a6b-5246f53ae088")
+		(property "Reference" "C4"
+			(at 44.45 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 44.45 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.2252 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08ab5455-7133-4ebd-9b10-9ca039372162")
+		)
+		(pin "1"
+			(uuid "6825ed59-7e7d-43ad-b6d3-27f8d83b8156")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "459d880b-fef6-4ca3-b506-ee28245f681a")
+		(property "Reference" "#PWR02"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f260e07e-a487-4676-8b84-6da92cc04e7c")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ed8f10b-6d6e-4e71-836a-d7d8bc792a85")
+		(property "Reference" "D106"
+			(at 222.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "f73a7ff2-bcb3-4b98-b39b-b80ebcb0f401")
+		)
+		(pin "C"
+			(uuid "fcee1f5e-a7ec-4cf0-b22c-98d754ef3689")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a474dd-92f8-4ec8-84ed-727e0c8edfc7")
+		(property "Reference" "D32"
+			(at 222.25 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "e21f0f17-a5c6-473e-95fb-70206a6c7d44")
+		)
+		(pin "C"
+			(uuid "4d2664d9-a6f2-4d41-8e24-42795dc2631b")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54e27a55-65e0-4f89-ac36-8dbce583fb04")
+		(property "Reference" "D105"
+			(at 222.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "8789090d-ccbb-40a7-aaca-493f13355161")
+		)
+		(pin "C"
+			(uuid "e52a0fb3-7d95-40c7-a65d-8e004dc8edfe")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dedc7b4-9eda-4f29-baa1-221e33f02dd3")
+		(property "Reference" "D108"
+			(at 222.25 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ace7d3e1-ffbc-41a1-8983-d68b2ed9f0b5")
+		)
+		(pin "C"
+			(uuid "412ba847-7ef0-41a8-8631-7dc0202aa912")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c8c0c87-eecd-4855-80b5-1964a13dc6d7")
+		(property "Reference" "#PWR08"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e78d9b1-f8a5-433c-9d5f-9870cee6ea95")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70625bd0-5d50-4819-a18f-f4941cab3f95")
+		(property "Reference" "D43"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "b4219089-f2f2-4b5e-afb7-019357f5bac1")
+		)
+		(pin "C"
+			(uuid "49d438dd-cafe-4fd2-9cc7-4218c03fd788")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7648b7dd-75d7-42fd-9eac-f713785fbb26")
+		(property "Reference" "D103"
+			(at 222.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "37a0d78d-06d8-4b02-ab8c-01ac6ccfff2f")
+		)
+		(pin "C"
+			(uuid "bc1860e4-7b55-41dc-8595-f8eb7369f91e")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764e1b7b-8c65-4fb0-8d52-cfcd7631441e")
+		(property "Reference" "D47"
+			(at 222.25 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "b7abc08f-c0fe-4889-92b7-cd703c8ed47e")
+		)
+		(pin "C"
+			(uuid "760fd128-49ad-43d0-ae04-4175ce71d9c5")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ebe4404-fcdb-45aa-92f5-9282ae97b351")
+		(property "Reference" "D10"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "14214a29-2961-4057-8087-20b034a518a7")
+		)
+		(pin "C"
+			(uuid "39b178d6-7675-483e-ab73-c45aec889484")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933bca08-c970-462c-affb-3906e244f66c")
+		(property "Reference" "D27"
+			(at 163.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ebca91ad-887a-40ef-a2b0-77cf392f21da")
+		)
+		(pin "C"
+			(uuid "96426b9e-8e01-40ec-98aa-1fe894004cfe")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "990edb22-8e69-43fc-8b1b-3849312c2529")
+		(property "Reference" "D46"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "3cc768a1-60bb-4741-8256-7af920120747")
+		)
+		(pin "C"
+			(uuid "9aa88056-aee0-4bf8-a683-931a2c2e7947")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a58b2a4a-edb2-4bd3-a3eb-e2e23171b30f")
+		(property "Reference" "D29"
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "37a2ff1b-7fad-4d05-bf89-1a89e00dbb26")
+		)
+		(pin "C"
+			(uuid "d4864436-ff3d-4c6e-ac9b-57d333c8e96e")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6bc9e8b-4295-4381-a146-f8bef9729229")
+		(property "Reference" "D5"
+			(at 163.83 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "d6c4dc8a-2742-488c-b403-e424785c09de")
+		)
+		(pin "C"
+			(uuid "58400b11-6eee-46c8-bc4a-9f902a9c6914")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84e1113-9305-4615-b469-75ee858a07ea")
+		(property "Reference" "D102"
+			(at 222.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "2737506c-dad1-4e49-a8a6-0bc7ecd0e179")
+		)
+		(pin "C"
+			(uuid "d5e85fee-ea7f-49a2-8b5d-450df2b7928c")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLC5955:TLC5955DCAR")
+		(at 78.74 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c34fc33c-a1f7-4a47-9761-f961cb2e0660")
+		(property "Reference" "U5"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TLC5955DCAR"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DCA0056F_N"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TLC5955DCAR"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "33"
+			(uuid "6b58b409-5657-4518-99ff-bf433a7aef74")
+		)
+		(pin "5"
+			(uuid "aede02cb-72f8-4736-8f09-fd0d68a024d4")
+		)
+		(pin "22"
+			(uuid "f2fc9eca-f60b-4ad4-827b-523790a05584")
+		)
+		(pin "31"
+			(uuid "4874bd50-9681-4b9f-a638-dfa76c0b01a2")
+		)
+		(pin "21"
+			(uuid "d46ff8d8-b695-477b-8e57-f2f081822a04")
+		)
+		(pin "6"
+			(uuid "02a509fe-0698-4bfd-9a91-2a90aa371fd8")
+		)
+		(pin "41"
+			(uuid "b980c615-786f-42fd-8783-c6021199243d")
+		)
+		(pin "4"
+			(uuid "dbe19bb5-6722-4c17-bd95-3ff649f261e6")
+		)
+		(pin "37"
+			(uuid "189a0754-34ad-4c8e-9f9f-02f5b2681e56")
+		)
+		(pin "57"
+			(uuid "8f582377-c93a-4794-a0db-ffde0dd9df83")
+		)
+		(pin "45"
+			(uuid "1805b10b-8a94-4f18-b003-af182c66bf3c")
+		)
+		(pin "29"
+			(uuid "c5aeda7d-3434-49b6-a800-2d11f402adf3")
+		)
+		(pin "50"
+			(uuid "588d224d-ba36-4592-92d1-4b8c3db17571")
+		)
+		(pin "20"
+			(uuid "4459d058-6952-4874-a632-b72bdd1ce585")
+		)
+		(pin "2"
+			(uuid "fbfe574a-af54-4c3a-9e14-8334410bcf80")
+		)
+		(pin "39"
+			(uuid "dc487887-8021-4e9c-b4da-a4c333c3d08e")
+		)
+		(pin "44"
+			(uuid "be55aba0-b879-439c-a922-456948a42302")
+		)
+		(pin "42"
+			(uuid "371721e8-348c-4a8d-8991-8d00399cc1e2")
+		)
+		(pin "17"
+			(uuid "d42cf714-9dc1-4b0d-accb-be4fd448a042")
+		)
+		(pin "40"
+			(uuid "9f9fb9b5-9a8c-4055-9fce-af1b12f9101a")
+		)
+		(pin "43"
+			(uuid "b1d36eaf-c80f-41c3-8982-0a589ff5dff1")
+		)
+		(pin "46"
+			(uuid "1ab32e43-d7e9-4cb6-b429-9889ee574eeb")
+		)
+		(pin "48"
+			(uuid "7b62c428-53c7-4b5c-bd63-39a8b05c2697")
+		)
+		(pin "19"
+			(uuid "cfeaca5c-7d2d-4621-a1be-4b9a84200160")
+		)
+		(pin "53"
+			(uuid "2f006444-ee76-48bb-8dab-4d4aed8a6b55")
+		)
+		(pin "38"
+			(uuid "f7a0bb96-d2ee-4133-b539-11eddd7a388d")
+		)
+		(pin "55"
+			(uuid "be5e7662-d7ae-4153-9edc-d8375c8a5abb")
+		)
+		(pin "24"
+			(uuid "fb3f00c4-2764-4bdb-9ae6-91b36d132192")
+		)
+		(pin "54"
+			(uuid "1bcae923-5104-4f1a-b440-478cb53c9d32")
+		)
+		(pin "16"
+			(uuid "cbe176f8-5dad-4f55-9966-c30dc8212287")
+		)
+		(pin "1"
+			(uuid "a22f61a2-919e-4f4b-a0ec-9d91542c7e7b")
+		)
+		(pin "13"
+			(uuid "8563e956-212d-44bc-8b21-52d697646bf4")
+		)
+		(pin "56"
+			(uuid "ebaad625-aed2-46e8-b14e-c2f8136123e0")
+		)
+		(pin "15"
+			(uuid "c8ea7ec5-999a-468c-84d4-c78656038777")
+		)
+		(pin "3"
+			(uuid "20a5c514-ebaf-4a82-9ceb-7f45f2d143a5")
+		)
+		(pin "18"
+			(uuid "ebcd25b5-3ec5-4ee3-be92-1de3c459a29b")
+		)
+		(pin "8"
+			(uuid "ca98b3c8-57be-47ec-97e9-f5900ecb286a")
+		)
+		(pin "25"
+			(uuid "209fcebb-d95a-4780-b9f2-121692e57cec")
+		)
+		(pin "47"
+			(uuid "85f38701-64e6-4c1a-bf8f-a6bc56a041bf")
+		)
+		(pin "7"
+			(uuid "46848656-9c29-4c39-8e0a-9687a8f0d9c1")
+		)
+		(pin "30"
+			(uuid "ddd7d10a-75f9-4b82-97d8-e05fa4df6b86")
+		)
+		(pin "36"
+			(uuid "c3abd04a-d42f-403f-8362-ecfe128e1b5d")
+		)
+		(pin "51"
+			(uuid "c2ac5979-1376-49e0-9858-8c914ea53e04")
+		)
+		(pin "26"
+			(uuid "4660c134-f0e6-4fa9-9038-e0c0428a17ea")
+		)
+		(pin "23"
+			(uuid "773ee973-82f3-4110-a17b-319572bf7cc6")
+		)
+		(pin "27"
+			(uuid "1e0bae18-014f-4f86-9b29-a30824751399")
+		)
+		(pin "9"
+			(uuid "3ce6008c-e488-404f-9756-90c7246eff79")
+		)
+		(pin "34"
+			(uuid "7b143df4-5229-4f6d-b885-a7ccb1cd39e1")
+		)
+		(pin "35"
+			(uuid "d1e830e6-e8e1-4b0a-a2b5-5999752f054e")
+		)
+		(pin "32"
+			(uuid "3b0a7538-0a01-49d5-95df-a78f72ff500c")
+		)
+		(pin "14"
+			(uuid "71d89059-3cb5-4efd-aa46-428bedb4d8cb")
+		)
+		(pin "28"
+			(uuid "c3b74aea-c7c5-45e1-834e-3a5e1059bfa2")
+		)
+		(pin "49"
+			(uuid "3fb26d0f-6a1e-4de4-9df8-86106a56667d")
+		)
+		(pin "12"
+			(uuid "79065c57-f46c-409e-a34f-2889372b0529")
+		)
+		(pin "10"
+			(uuid "468a1bb5-7dce-460a-93be-cf431b8fa6c2")
+		)
+		(pin "11"
+			(uuid "c6260e00-9555-4f1c-a279-241f34b00e80")
+		)
+		(pin "52"
+			(uuid "402d6120-f5ae-4380-9de4-61d2166f62a1")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6dbd683-20e8-4253-8780-80b94a2b86bc")
+		(property "Reference" "D9"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "b55a370d-f1d0-4ec8-a3d2-752a5ae4e019")
+		)
+		(pin "C"
+			(uuid "03967b16-c15e-4a03-a10a-36cdff44c78c")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd19cfba-e174-4473-8dfb-d7d8345fc8d6")
+		(property "Reference" "D2"
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "d3ac215d-48b7-449d-9d1e-5e56daa4860f")
+		)
+		(pin "C"
+			(uuid "4bb790a0-4968-4e1e-9965-56c01fa4c050")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfcb8ad1-56ab-4dfd-a2b9-f4dfc6233b45")
+		(property "Reference" "D6"
+			(at 163.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ad5e44c7-d552-4097-af0e-937512a62ab1")
+		)
+		(pin "C"
+			(uuid "20b83443-0429-4eb4-905a-bb56573759c2")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e09a230b-1b68-4e02-aa88-526207f4db81")
+		(property "Reference" "D101"
+			(at 222.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "371e848c-7635-4b17-a9d5-57e29448119f")
+		)
+		(pin "C"
+			(uuid "0bdfeb7b-2975-4bd2-b138-12febcceb5a3")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1a085b0-d0cd-4ff2-a3ca-4922a4f618bd")
+		(property "Reference" "D104"
+			(at 222.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "a3f0bf2c-2369-48e5-8a8c-620dfbe88fac")
+		)
+		(pin "C"
+			(uuid "4479975f-68fe-4e70-b57c-9c8a12d2088e")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f59ca362-c17d-40ef-971d-f68e93a8546a")
+		(property "Reference" "D11"
+			(at 163.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "74bc6d32-9280-4d1a-ab3b-442ce6ad8e22")
+		)
+		(pin "C"
+			(uuid "b75c65db-fa64-42b4-86c3-1ddd742ae722")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 165.1 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6d6da29-b0a5-426c-a631-03822cc5de2b")
+		(property "Reference" "D8"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "ca84c235-fe33-4dba-b27f-10b41bd8df32")
+		)
+		(pin "C"
+			(uuid "8424f17b-61d7-4ce9-96b3-6f0c53a23dd7")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED 0603:LTST-C191KFKT")
+		(at 223.52 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f763eecd-f7ee-48c6-a17d-abb017339ea9")
+		(property "Reference" "D45"
+			(at 222.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LTST-C191KFKT"
+			(at 222.25 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LTST-C191KFKT:LEDC1608X55N"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. H"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite-On Inc."
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65 mm"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "c7e17188-8c93-4fbe-918d-bcd13e36f882")
+		)
+		(pin "C"
+			(uuid "0982f425-d4c9-4934-8b39-135291c093b6")
+		)
+		(instances
+			(project "full_board_v1"
+				(path "/44c1817a-72de-4f08-973e-f4fdd60ec3e1/2f8b6b5d-5470-4464-95fb-aaad957a66a8"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
